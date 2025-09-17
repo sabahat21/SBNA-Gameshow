@@ -4,7 +4,7 @@ name: Full stack deployment
 on:
   workflow_dispatch:      
   push:
-    branches: [ 404_deployment_testing_branch_2 ]    
+    branches: [ gameshow ]    
 
 jobs:
   setup-and-deploy:
