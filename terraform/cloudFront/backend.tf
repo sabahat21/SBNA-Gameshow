@@ -1,10 +1,10 @@
 terraform { 
   cloud { 
     
-    organization = "sanskrit-gameshow" 
+    organization = "SanskritDeployment" 
 
     workspaces { 
-      name = "gameshow-cloudFront" 
+      name = "CloudFront" 
     } 
   } 
 }
