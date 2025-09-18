@@ -1,8 +1,8 @@
 name: Full Stack Deployment
 
-on:
-  push:
-    branches: gameshow-survey
+#on:
+  #push:
+    #branches: gameshow-survey
 
 jobs:
   setup-and-deploy:
@@ -298,6 +298,7 @@ jobs:
           aws cloudfront create-invalidation \
             --distribution-id ${{ env.DISTRIBUTION_ID }} \
             --paths "/*"
+
 
 
 
