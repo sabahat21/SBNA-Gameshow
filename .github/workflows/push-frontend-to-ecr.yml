@@ -3,7 +3,7 @@ name: Build and Push Frontend to ECR
 #on:
  # push:
   #  branches:
-   #   - 404-Not-Found-Deployment-Testing
+   #   - gameshow-survey
 
 jobs:
   build-and-push:
