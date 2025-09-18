@@ -1,7 +1,7 @@
 terraform { 
   cloud { 
     
-    organization = "sanskrit-survey-site" 
+    organization = "SanskritDeployment" 
 
     workspaces { 
       name = "api-gateway" 
