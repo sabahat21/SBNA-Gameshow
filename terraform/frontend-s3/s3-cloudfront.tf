@@ -4,7 +4,7 @@ provider "aws" {
 
 # 1. Create S3 bucket for frontend
 resource "aws_s3_bucket" "frontend_bucket" {
-  bucket = "my-sanskrit-survey-frontend-bucket-2"
+  bucket = "my-sanskrit-survey-frontend-bucket-3"
 
   website {
     index_document = "index.html"
