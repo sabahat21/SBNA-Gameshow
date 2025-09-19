@@ -91,11 +91,11 @@ resource "aws_instance" "backend_server" {
               free -h
               EOF
 
-  root_block_device {
-    volume_size = 30          # Size in GB
-    volume_type = "gp2"       # General purpose SSD 
-    delete_on_termination = true
-  }
+  #root_block_device {
+    #volume_size = 30          # Size in GB
+    #volume_type = "gp2"       # General purpose SSD 
+    #delete_on_termination = true
+  #}
 
   tags = {
     Name = "NodeBackendEC2"
