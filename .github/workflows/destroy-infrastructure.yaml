@@ -1,9 +1,9 @@
 name: Destroy Infrastructure
 
-#on:
-  #workflow_dispatch:
-  #push: 
-   #branches: [ gameshow ]
+on:
+  workflow_dispatch:
+  push: 
+   branches: [ gameshow ]
 
 env:
   AWS_REGION: us-east-1
